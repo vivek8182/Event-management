@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <header>
+        <h1>Your Shopping Cart</h1>
+    </header>
+
+    <div class="content">
+        <!-- Cart items -->
+        <div class="cart-item">
+            <p>Product Name</p>
+            <p>Quantity: 2</p>
+            <p>Price: $20 each</p>
+        </div>
+
+        <!-- Display total amount -->
+        <p>Total Amount: $40</p>
+
+        <!-- Payment and cancel buttons -->
+        <form method="post" action="cart.php">
+            <input type="submit" name="payment" value="Proceed to Payment">
+            <input type="submit" name="cancel" value="Cancel">
+        </form>
+    </div>
+
+    <footer>
+        <p>Event Management by Adarsh</p>
+    </footer>
+</body>
+</html>
